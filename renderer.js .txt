@@ -1,0 +1,4 @@
+document.getElementById('dropZone').addEventListener('click', () => {
+  window.api.test() // Teste da API Electron
+  document.getElementById('output').textContent = 'Funcionou!'
+})

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dash Doc - Processador de Documentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dash Doc</h1>
+    <div id="dropZone">
+      <h2>Arraste e solte um PDF ou imagem</h2>
+      <p class="hint">Ou clique para selecionar um arquivo</p>
+      <input type="file" id="fileInput" accept=".pdf,image/*" style="display:none" multiple>
+    </div>
+    <div id="output"></div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

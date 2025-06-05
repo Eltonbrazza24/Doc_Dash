@@ -1,0 +1,15 @@
+# Arquivos de ambiente
+.env
+.env.local
+
+# Dependências
+node_modules/
+
+# Arquivos do Electron
+dist/
+out/
+release-builds/
+
+# Logs e temporários
+*.log
+*.tmp 
